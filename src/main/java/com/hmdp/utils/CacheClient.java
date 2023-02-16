@@ -132,7 +132,6 @@ public class CacheClient {
             // 返回一个错误信息
             return null;
         }
-
         // 4.实现缓存重建
         // 4.1.获取互斥锁
         String lockKey = LOCK_SHOP_KEY + id;
